@@ -1,0 +1,117 @@
+; Packaging information for ie_skeleton
+name = "IE Skeleton"
+description = "Base IE Design Drupal profile"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = fpa
+dependencies[] = module_filter
+; Chaos tool suite
+dependencies[] = ctools
+; Content Workflow
+dependencies[] = workbench
+dependencies[] = workbench_access
+dependencies[] = workbench_moderation
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Fields
+dependencies[] = entityreference
+dependencies[] = filefield_sources
+dependencies[] = title
+; Frontend
+dependencies[] = modernizr
+; Mail
+;dependencies[] = smtp
+; Media
+dependencies[] = imce
+dependencies[] = imce_crop
+dependencies[] = imce_mkdir
+; OAuth
+dependencies[] = oauth_common
+; Other
+dependencies[] = adaptive_image
+dependencies[] = backup_migrate
+dependencies[] = block_class
+dependencies[] = elements
+dependencies[] = entity
+dependencies[] = imagecrop
+dependencies[] = libraries
+dependencies[] = linkit
+dependencies[] = menu_block
+dependencies[] = pathauto
+;dependencies[] = shortcut_per_role
+dependencies[] = site_map
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = twitter
+; Path management
+dependencies[] = globalredirect
+dependencies[] = redirect
+dependencies[] = pathologic
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = rules_scheduler
+; SEO
+dependencies[] = metatag
+; Search
+dependencies[] = search_api
+dependencies[] = search_api_db
+dependencies[] = search_api_page
+dependencies[] = search_api_views
+; Spam control
+;dependencies[] = captcha
+;dependencies[] = image_captcha
+; Storage API
+;dependencies[] = storage
+;dependencies[] = storage_audit
+;dependencies[] = storage_core_bridge
+;dependencies[] = storage_statistic
+; User interface
+dependencies[] = ckeditor
+dependencies[] = jquery_update
+;dependencies[] = edit
+; Views
+dependencies[] = better_exposed_filters
+dependencies[] = views
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+; XML sitemap
+dependencies[] = xmlsitemap
+

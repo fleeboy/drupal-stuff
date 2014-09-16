@@ -1,0 +1,52 @@
+
+// Typography Setup
+
+// Please Config @font-face here
+// $font_path var is available
+
+// -------------------------------------------------------------------------/
+
+
+
+ body{
+        font-family: "sans-serif";
+ }
+
+
+// Titles  and page headings
+// If not specified, inuit font sizes will be used
+// These  font size can also be overridden  in _vars.scss
+
+.page-title {
+
+}
+
+.title {
+
+}
+
+
+.heading {
+
+}
+
+.sub-heading {
+
+}
+
+
+// Remove top margin value from paragraphs directly after a heading
+// ToDo -- Could be too specific - rem if needed
+
+.page-title + p,
+.heading + p,
+.sub-heading + p,
+.title + p {
+    margin-top: 0;
+}
+
+
+p {
+
+}
+

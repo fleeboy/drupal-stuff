@@ -1,0 +1,25 @@
+
+// Item List
+// Basic listings of content, extend from this 
+//---------------------------------------------------------------
+
+
+.item-list {
+ 
+    margin: 0;
+    @extend .cf;
+    list-style: none;
+
+    li {
+    
+        margin : 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+
+        display: block;
+    }
+ 
+}

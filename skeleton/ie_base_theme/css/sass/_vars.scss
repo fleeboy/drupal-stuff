@@ -1,0 +1,125 @@
+/*------------------------------------*\
+    VARS.SCSS
+\*------------------------------------*/
+/**
+ * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
+ * keep, simply redefine here. This means that if inuit.css, for example, sets
+ * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
+ * that variable in this file. inuit.css ignores its own variables in favour of
+ * using your own, so you can completely modify how inuit.css works without ever
+ * having to alter the framework itself.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $OBJECTS-AND-ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * All of inuit.css’ objects and abstractions are initially turned off by
+ * default. This means that you start any project with as little as possible,
+ * and introducing objects and abstractions is as simple as switching the
+ * following variables to `true`.
+ */
+$use-grids:         true;
+$use-flexbox:       false;
+$use-columns:       false;
+$use-nav:           true;
+$use-options:       false;
+$use-pagination:    true;
+$use-breadcrumb:    true;
+$use-media:         false;
+$use-marginalia:    false;
+$use-island:        false;
+$use-block-list:    false;
+$use-matrix:        false;
+$use-split:         false;
+$use-this-or-this:  false;
+$use-link-complex:  false;
+$use-flyout:        false;
+$use-arrows:        false;
+$use-sprite:        false;
+$use-icon-text:     false;
+$use-beautons:      false;
+$use-lozenges:      false;
+$use-rules:         false;
+$use-stats:         false;
+$use-greybox:       true;
+
+
+
+
+
+/*------------------------------------*\
+    $OVERRIDES
+ \*------------------------------------*/
+/**
+ * Place any variables that should override inuit.css’ defaults here.
+ */
+
+
+//$h1-size: 20px;   // Maps to .page-title
+//$h2-size: 14px;   // .title
+//$h3-size : 14px;  // .heading
+//$h4-size : 14px;  // .sub-heading
+
+
+ // Just a note of the widths.
+
+//$lap-start:         481px!default;
+//$desk-start:        1024px!default;
+//$desk-wide-start:   1200px!default;
+
+
+/*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+    
+
+    // 1. MISC
+        
+        // 1.1 Inlcude Wireframing
+
+         $wireframe : true;
+
+        // 1.2 Page Max Width
+        // If needed set a maximum page width for the layout
+        // Set to 100% to override
+    
+            $page-width : 1400px;
+
+
+    // 2 . Colours
+
+        
+        // 2.1 Wrapper Backgrounds
+
+            $body-background-colour: rgb(39, 39, 39);
+
+            $site-background-colour: rgb(253, 253, 253);
+    
+            $footer-background-colour: rgb(69, 69, 69);
+        
+        
+        // 2.2 Wrapper Text Colours
+
+            $footer-colour: rgb(253, 253, 253);
+    
+
+        // 2.3 Navigtion Colours
+
+            $footer-link-color : rgb(253, 253, 253);
+
+            
+    // 3 . Paths
+
+        
+
+        $font_path :  '../../fonts';
+
+        $layout_image_path :  '../../images';
+
+        
+

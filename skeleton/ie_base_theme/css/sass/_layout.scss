@@ -1,0 +1,131 @@
+    
+    // Base Layout
+    
+
+
+    // Content Wrappers
+    // -------------------------------------------------------------------------/
+
+  
+ 
+        // Site Wrapper
+        // ----------------------------------
+     
+
+        .site-wrapper {
+
+            background : $site-background-colour;
+  
+        }
+     
+
+                
+        
+        // Section Wrapper
+        // Wrappes Header, Content and Footer
+        // ----------------------------------
+
+        .container {
+            
+
+
+             @if $page-width != 100%  {
+
+                max-width: 1400px;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+        }
+
+
+
+        // Header
+        // ----------------------------------
+
+        
+        .site-header {  
+        
+            padding: 20px 0 ;
+        
+        }
+        
+        
+        // Content
+        // ----------------------------------
+
+            // Page Wrapper
+            // Page wraps main content and Sidebars 
+
+            .page  {
+
+                @extend .cf;
+
+                padding: 20px 0 ;
+
+                
+                // Sidebar  Styles
+
+                .sidebar-first ,
+                .sidebar-second {
+
+                    @extend .desk-one-quarter;
+              
+                    @media all and (min-width:  $desk-start) {
+
+                        float:left;
+                    }
+
+                }
+            }
+            
+
+
+             // Page with Sidebars
+
+            .one-sidebar, 
+            .two-sidebars {
+
+
+                // Main Content Wrapper width  with sidebars
+
+                .main-content {
+                                   
+                    @extend .desk-three-quarters;
+    
+                    // On Desktop up ++ float
+                    
+                    @media all and  (min-width: $desk-start) {
+
+                        float:right;
+                    }
+
+                }
+ 
+
+            }
+
+ 
+ 
+       
+        // Footer
+        // ----------------------------------
+        
+        .site-footer {  
+
+            padding: 20px 0;
+
+            background : $footer-background-colour;
+
+            color : $footer-colour;
+
+
+        } 
+
+
+        .footer-content {
+
+            position: relative;
+        }
+       

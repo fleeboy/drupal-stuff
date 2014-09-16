@@ -1,0 +1,36 @@
+@if $wireframe  == true {
+   
+
+    // Wireframing Helpers
+    //  This is not production ready code, 
+    // Only used for prototyping
+
+
+    $base-padding :  12px;
+
+    $base-margin :  12px;
+
+    $grey-box-color : rgb(150,150,150); // Inuit uses rgba(), alter for clients on older browsers
+
+
+    .greybox {
+        
+        background-color :  $grey-box-color;
+        text-align:left; // Override Inuit
+        padding : $base-padding ;
+        margin :  $base-margin 0 ;
+     
+    }
+
+
+
+    // Update Main Containers 
+    .container {
+        
+        padding :  $base-padding ;
+    }
+
+
+
+
+}
